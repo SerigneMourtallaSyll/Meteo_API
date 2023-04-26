@@ -45,16 +45,24 @@ body{
 }
 
 @media screen and (min-width:100px) and (max-width:330px) {
-    .box{
-        width: 148px;
-    }
-
     .btn {
         width: 100%;
         color: #fff !important;
         font-size: 15px;
         font-family: sans-serif;
         font-weight: 500;
+    }
+    
+    .form{
+        width: 100%;
+    }
+
+    .box-container{
+        width: 100%;
+    }
+
+    .box{
+        width: 50%;
     }
 }
 
