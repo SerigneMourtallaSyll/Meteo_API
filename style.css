@@ -1,0 +1,59 @@
+body{
+    background-image: url('forest-ge2cf8f6f7_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.box-container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btn {
+    color: #fff !important;
+    font-size: 15px;
+}
+
+#city{
+    background-color: rgba(41, 128, 185, 0.75);
+}
+
+#temp{
+    background-color: rgba(43, 78, 101, 0.75);
+}
+
+#humidity{
+    background-color: rgba(52, 152, 219, 0.75);
+}
+
+#wind{
+    background-color: rgba(143, 146, 154, 0.75);
+}
+
+@media screen and (min-width:100px) and (max-width:330px) {
+    .box{
+        width: 148px;
+    }
+
+    .btn {
+        width: 100%;
+        color: #fff !important;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+}
